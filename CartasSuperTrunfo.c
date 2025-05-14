@@ -94,7 +94,7 @@ int main(){
     int resultado;
 
     superpoder1 = populacao1+ area1 + pib1 + percapita1+ 1 / densidade1 + nt1;
-    superpoder2 = populacao2 + area2 + pib1 + percapita2 + 1 / densidade2+nt2;
+    superpoder2 = populacao2 + area2 + pib2 + percapita2 + 1 / densidade2+nt2;
 
 
     printf ("Jogador numero 1, sua super carta tem valor de %.f\n", superpoder1);
