@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(){
     char estado1;
     int codigo1;
@@ -85,4 +87,24 @@ int main(){
     printf ("Pontos turisticos: %d\n", nt2);
     printf ("Densidade populacional: %f\n", densidade2);
     printf ("PIB per capita: %f\n", percapita2);
+
+
+
+    float superpoder1, superpoder2;
+    int resultado;
+
+    superpoder1 = populacao1+ area1 + pib1 + percapita1+ 1 / densidade1 + nt1;
+    superpoder2 = populacao2 + area2 + pib1 + percapita2 + 1 / densidade2+nt2;
+
+
+    printf ("Jogador numero 1, sua super carta tem valor de %.f\n", superpoder1);
+    printf ("Jogador numero 2 sua super carta tem o valor de %.f\n", superpoder2);
+    
+
+    resultado= superpoder1 > superpoder2;
+
+    printf("Com os valores obtidos se a resposta for 1 a vitoria é do jogador 1 e se for 0 a vitoria é do jogador 2 \n");
+    printf ("Resultado: %d\n", resultado);
+
+
 }
